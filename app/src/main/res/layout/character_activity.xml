@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CharacterActivity">
+
+    <ImageView
+        android:id="@+id/characterIV"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/characterNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_margin="5dp"
+        android:textSize="36dp"
+        android:layout_below="@+id/characterIV"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/characterStatusTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : "
+        android:textSize="24dp"
+        android:layout_below="@+id/characterNameTV"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/characterSpeciesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Species : "
+        android:textSize="24dp"
+        android:layout_below="@+id/characterStatusTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/characterGenderTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender : "
+        android:textSize="24dp"
+        android:layout_below="@+id/characterSpeciesTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/characterOriginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origin : "
+        android:textSize="24dp"
+        android:layout_below="@+id/characterGenderTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/characterlocationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location : "
+        android:textSize="24dp"
+        android:layout_below="@+id/characterOriginTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+</RelativeLayout>

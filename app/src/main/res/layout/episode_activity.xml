@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EpisodeActivity">
+
+    <TextView
+        android:id="@+id/episodeNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/characterIV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Name"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/airDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/episodeNameTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Air date :  "
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/episodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/airDateTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Episode : "
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/createdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/episodeTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Created : "
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/charactersTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createdTV"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Characters : "
+        android:textSize="24dp" />
+
+    <ListView
+        android:id="@+id/charactersListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/charactersTV" />
+
+
+</RelativeLayout>

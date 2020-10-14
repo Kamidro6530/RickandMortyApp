@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/episodeTitleTV"
+        android:textSize="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:maxLength="18"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/episodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/episodeTitleTV"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="episode" />
+
+    <TextView
+        android:id="@+id/air_dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/episodeTV"
+        android:layout_centerHorizontal="true"
+        android:text="air date" />
+
+</RelativeLayout>
