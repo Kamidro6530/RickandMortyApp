@@ -41,6 +41,9 @@ class EpisodeRecyclerAdapter (private val list : ArrayList<Episode>) : RecyclerV
 
             holder.itemView.context.startActivity(intent)
         }
+        if (list[position].url == ""){
+            holder.itemView.isClickable = false
+        }
 
 
     }

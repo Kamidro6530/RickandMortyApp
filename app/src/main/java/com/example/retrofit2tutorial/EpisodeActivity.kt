@@ -7,16 +7,19 @@ import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.get
 import com.example.retrofit2tutorial.Characters.Character
+import com.example.retrofit2tutorial.Episodes.Episode
 import com.example.retrofit2tutorial.retrofit.RetrofitClient
 import kotlinx.android.synthetic.main.episode_activity.*
 import kotlinx.coroutines.Deferred
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.ArrayList
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class EpisodeActivity : AppCompatActivity(){
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.episode_activity)
